@@ -1,0 +1,455 @@
+@charset "utf-8";
+
+p {
+    line-height: 2;
+}
+
+body {
+    background-color: #F3F3F2;
+    color: #262626;
+    font-family: Century, MS Serif, Times New Roman, serif;
+}
+
+main {
+    padding-top: 100px;
+}
+
+.header {
+    height: 100px;
+    background-color: #F3F3F2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 90px 0 70px;
+    font-family: Century, MS Serif, Times New Roman, serif;
+}
+
+.header h1:hover {
+    opacity: 0.5;
+}
+.header a {
+    color: #262626;
+}
+
+.header ul {
+    margin-left: 50px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+}
+
+.header ul li {
+    margin-left: 50px;
+}
+
+.header ul li:hover {
+    opacity: 0.5;
+}
+
+.header ul li.current {
+    border-bottom: 3px solid #262626;
+}
+.carrent{
+    border: aqua;
+}
+/* パンくずリスト */
+
+.breadcrumb-area {
+    font-size: 15px;
+    padding:25px 75px;
+    color: #262626;
+}
+.breadcrumb-area a {
+    color: #262626;
+}
+.top-wrapper {
+    text-align: center;
+}
+
+.top-wrapper img {
+    width: 90%;
+    height: 100%;
+}
+
+/* 概要ページ */
+.aboutarea-title {
+    max-width: 1000px;
+    margin: 200px auto 0px;
+    font-size: 40px;
+    border-bottom: 1px solid #262626;
+    padding-bottom: 10px;
+}
+
+.about {
+    margin: 50px auto 80px;
+}
+
+.about p {
+    max-width: 1000px;
+    margin: 0px auto 15px;
+    font-size: 18px;
+}
+
+.representative-greetingarea-title {
+    max-width: 1000px;
+    margin: 0px auto;
+    font-size: 40px;
+    border-bottom: 1px solid #262626;
+    padding-bottom: 10px;
+}
+
+.representative-greeting {
+    max-width: 1000px;
+    margin: 50px auto 80px;
+}
+
+.representative-greeting p {
+    font-size: 18px;
+}
+
+.representative-name {
+    text-align: right;
+}
+
+/* メンバー募集 */
+.wanted-title {
+    max-width: 1000px;
+    margin: 200px auto 0px;
+    font-size: 40px;
+    border-bottom: 1px solid #262626;
+    padding-bottom: 10px;
+}
+
+.wanted-about {
+    margin: 50px auto 80px;
+}
+
+.target {
+    max-width: 1000px;
+    margin: 0px auto 30px;
+    font-size: 18px;
+}
+
+.target span {
+    border-bottom: solid 1px #262626;
+}
+
+.fee {
+    max-width: 1000px;
+    margin: 0px auto;
+    font-size: 18px;
+}
+
+.fee span {
+    border-bottom: solid 1px #262626;
+}
+
+.practice-title {
+    max-width: 1000px;
+    margin: 0px auto;
+    font-size: 40px;
+    border-bottom: 1px solid #262626;
+    padding-bottom: 10px;
+}
+
+.prectice-about {
+    margin: 50px auto 80px;
+}
+
+.daily {
+    max-width: 1000px;
+    margin: 0px auto 30px;
+    font-size: 18px;
+}
+
+.daily span {
+    border-bottom: solid 1px #262626;
+}
+
+.must {
+    max-width: 1000px;
+    margin: 0px auto;
+    font-size: 18px;
+}
+
+.must span {
+    border-bottom: solid 1px #262626;
+}
+
+.admission-title {
+    max-width: 1000px;
+    margin: 0px auto;
+    font-size: 40px;
+    border-bottom: 1px solid #262626;
+    padding-bottom: 10px;
+}
+
+.admission {
+    max-width: 1000px;
+    margin: 50px auto 80px;
+    font-size: 18px;
+}
+
+/* 演舞一覧 */
+.dance-title {
+    max-width: 1000px;
+    margin: 200px auto 0px;
+    font-size: 40px;
+    border-bottom: 1px solid #262626;
+    padding-bottom: 10px;
+}
+
+.dance-contents {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dance-contents a {
+    color: #262626;
+}
+
+.dance-content {
+    text-align: center;
+    margin: 50px 0 80px 0;
+}
+
+.dance-name {
+    font-size: 30px;
+    margin: 50px;
+}
+
+.single-dance-name {
+    font-size: 35px;
+    text-align: center;
+    margin: 50px;
+}
+
+.single-dance-content {
+    text-align: center;
+    font-size: 18px;
+    margin: 100px 0;
+}
+
+.dance-theme {
+    float: right;
+    text-align: center;
+    max-width: 100%;
+    width: 400px;
+    margin-top: 160px;
+}
+
+.dance-image {
+    width: 50%;
+    float: left;
+    transition: all 0.6s ease 0s;
+}
+.dance-content:hover img {
+    transform: scale(1.1, 1.1);
+}
+.single-dance-image {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.dance-video-wrap iframe {
+    margin: 50px 280px 50px 0;
+}
+
+.single-dance-video-wrap {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 80px;
+}
+/* ページャー */
+.wp-pagenavi {
+    text-align: center;
+    margin: 30px;
+}
+.pages {
+    display: none;
+}
+.current {
+    margin: 10px;
+    padding: 10px;
+    color: #F3F3F2;
+    font-size: 20px;
+    background-color: #9e9e9e;
+}
+.page {
+    margin: 10px;
+    padding: 10px;
+    color: #fff;
+    background: #262626;
+}
+.page a:hover {
+    background: #9e9e9e;
+}
+footer {
+    height: 50px;
+    background-color: #262626;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer h1 {
+    color: #F3F3F2;
+    font-size: 20px;
+}
+
+@media (max-width: 834px) {
+    #nav-drawer {
+        display: block;
+    }
+
+    .header {
+        height: 70px;
+        position: relative;
+    }
+
+    .header h1 {
+        font-size: 40px;
+        margin: 0;
+    }
+
+    .pc-menu li {
+        display: none;
+    }
+
+    #nav-content a {
+        display: block;
+        color: #262626;
+        text-align: center;
+        width: 100%;
+    }
+
+    .sp-menu ul {
+        display: block;
+        margin: 10% 0;
+    }
+
+    .sp-menu li {
+        margin-bottom: 5px;
+    }
+
+    .sp-menu {
+        display: block;
+        padding: 35% 5%;
+    }
+
+    .sp-menu a {
+        display: block;
+        border: 1px solid #262626;
+        width: 100%;
+        padding: 10% 0;
+    }
+
+    #nav-drawer {
+        position: absolute;
+        right: 10px;
+    }
+
+    /*チェックボックス等は非表示に*/
+    .nav-unshown {
+        display: none;
+    }
+
+    /*アイコンのスペース*/
+    #nav-open {
+        display: inline-block;
+        width: 30px;
+        height: 22px;
+        vertical-align: middle;
+    }
+
+    /*ハンバーガーアイコンをCSSだけで表現*/
+    #nav-open span,
+    #nav-open span:before,
+    #nav-open span:after {
+        position: absolute;
+        height: 3px;
+        /*線の太さ*/
+        width: 25px;
+        /*長さ*/
+        border-radius: 3px;
+        background: #262626;
+        display: block;
+        content: '';
+        cursor: pointer;
+        z-index: 150;
+    }
+
+    #nav-open span:before {
+        bottom: -8px;
+    }
+
+    #nav-open span:after {
+        bottom: -16px;
+    }
+
+    /*閉じる用の薄黒カバー*/
+    #nav-close {
+        display: none;
+        /*はじめは隠しておく*/
+        position: fixed;
+        z-index: 50;
+        top: 0;
+        /*全体に広がるように*/
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: black;
+        opacity: 0;
+        transition: .3s ease-in-out;
+    }
+
+    /*中身*/
+    #nav-content {
+        overflow: auto;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 100;
+        /*最前面に*/
+        width: 100%;
+        height: 100%;
+        background: #fff;
+        /*背景色*/
+        transition: .3s ease-in-out;
+        /*滑らかに表示*/
+        -webkit-transform: translateX(-105%);
+        transform: translateX(-105%);
+        /*左に隠しておく*/
+    }
+
+    /*チェックが入ったらもろもろ表示*/
+    #nav-input:checked~#nav-close {
+        display: block;
+        /*カバーを表示*/
+        opacity: .5;
+    }
+
+    #nav-input:checked~#nav-content {
+        -webkit-transform: translateX(0%);
+        transform: translateX(0%);
+        /*中身を表示（右へスライド）*/
+        box-shadow: 6px 0 25px rgba(0, 0, 0, .15);
+    }
+
+    .aboutarea-title {
+        max-width: 1000px;
+        width: 90%;
+        margin: 50px auto 10px;
+        font-size: 30px;
+        border-bottom: 1px solid #262626;
+        padding-bottom: 10px;
+    }
+
+    .about {
+        margin: 50px auto 80px;
+        width: 90%;
+    }
+}
