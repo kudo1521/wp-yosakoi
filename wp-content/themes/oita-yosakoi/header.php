@@ -49,10 +49,10 @@
             <div id="nav-content" class="media-header">
                 <nav class="sp-menu">
                     <ul>
-                        <li><a href="index.html">ホーム</a></li>
-                        <li><a href="about.html">概要</a></li>
-                        <li><a href="about2.html">メンバー募集</a></li>
-                        <li><a href="about3.html">演舞一覧</a></li>
+                        <li><a href="/wp-yosakoi/">ホーム</a></li>
+                        <li><a href="/wp-yosakoi/about/">概要</a></li>
+                        <li><a href="/wp-yosakoi/recruit/">メンバー募集</a></li>
+                        <li><a href="/wp-yosakoi/dance/">演舞一覧</a></li>
                     </ul>
                 </nav>
             </div>

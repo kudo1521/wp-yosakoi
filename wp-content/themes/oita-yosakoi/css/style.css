@@ -171,7 +171,7 @@ footer h1{
     color: #F3F3F2;
     font-size: 20px;
 }
-@media (max-width: 834px){
+@media (max-width: 1000px){
     body {
         padding-top: 0px;
     }
@@ -366,3 +366,4 @@ footer h1{
     }
 
 }
+/* レスポンシブ */
