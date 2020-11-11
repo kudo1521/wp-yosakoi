@@ -15,6 +15,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="大分からどまつり出場を目指すチームとして2020年に発足しました、どまつりよさこいチーム杏葉と申します。
     演舞に無限の可能性を常に追い求め、この先ずっと地域から愛され、歩みが続いていくチームになるよう努めて参ります。">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/reset.css">
