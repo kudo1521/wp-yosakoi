@@ -19,41 +19,41 @@ get_header();
         <img src="<?php echo get_template_directory_uri(); ?>/img/main-image.jpeg">
     </div>
     <section class="news-area">
-       <h2>NEWS</h2>
-       <?php
+        <h2>NEWS</h2>
+        <?php
          $args = array(
          'post_type' => 'info', 
          'posts_per_page' => 5,
          );
         ?>
-       <?php $query = new WP_Query( $args ); ?> 
-       <?php while ( $query->have_posts() ) : $query->the_post(); ?>
-       <!-- ▽ ループ開始 ▽ -->
-       <?php the_field('info_category'); ?>
-       <!-- △ ループ終了 △ -->
-       <?php endwhile; ?>
-       <?php wp_reset_postdata(); ?>
-       <div class="news-contents">
-        <ul>
-         <li><span><?php the_date(); ?></span><?php the_title(); ?></li> 
-        </ul>
-       </div>
+        <?php $query = new WP_Query( $args ); ?>
+        <?php while ( $query->have_posts() ) : $query->the_post(); ?>
+        <!-- ▽ ループ開始 ▽ -->
+        <?php the_field('info_category'); ?>
+        <!-- △ ループ終了 △ -->
+        <?php endwhile; ?>
+        <?php wp_reset_postdata(); ?>
+        <div class="news-contents">
+            <ul>
+                <li><span><?php the_date(); ?></span><?php the_title(); ?></li>
+            </ul>
+        </div>
     </section>
     <h2 class="area-title">杏葉について</h2>
     <section class="contents">
-        <a class="contents-icon" href="about.html">
+        <a class="contents-icon" href="/wp-yosakoi/about/">
             <img src="<?php echo get_template_directory_uri(); ?>/img/about-image.jpeg" alt="踊っている写真">
             <h3>概要</h3>
         </a>
-        
-        <a class="contents-icon" href="about2.html">
+
+        <a class="contents-icon" href="/wp-yosakoi/recruit/">
             <img src="<?php echo get_template_directory_uri(); ?>/img/wanted.jpeg" alt="空の写真">
             <h3>メンバー募集</h3>
         </a>
 
-        <a class="contents-icon" href="about3.html">
+        <a class="contents-icon" href="/wp-yosakoi/dance/">
             <img src="<?php echo get_template_directory_uri(); ?>/img/works-image.jpeg" alt="踊っている人たち">
-           <h3>演舞一覧</h3>
+            <h3>演舞一覧</h3>
         </a>
     </section>
     <h2 class="question-title">Q&A</h2>
@@ -92,6 +92,6 @@ get_header();
     </section>
 </main>
 
-	
+
 <?php
 get_footer();
