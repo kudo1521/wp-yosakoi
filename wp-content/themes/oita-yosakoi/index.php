@@ -59,7 +59,7 @@ get_header();
     <h2 class="question-title">Q&A</h2>
     <section class="question">
         <dl id="question-list">
-            <dt>初心者でも参加出来ますか？ <span class="under">▽</span></dt>
+            <dt>初心者でも参加出来ますか？ <span class="opened">▽</span></dt>
             <dd>初心者の方でも経験者の方でもやる気のある方であれば大歓迎です。<br>
                 大分においてはよさこいの経験者の方が少ないと思います。<br>
                 そのため初心者の方であっても踊れるようになるため、こちらも全力で応援させて頂きます。<br>
@@ -67,16 +67,16 @@ get_header();
                 どうぞ、ご参加ください。<br>
                 最初は踊りの上手い下手などは特に気にしなくて大丈夫ですのでご安心ください。
             </dd>
-            <dt>他県に支部を設けたりしますか? <span class="under">▽</span></dt>
+            <dt>他県に支部を設けたりしますか? <span class="opened">▽</span></dt>
             <dd>申し訳ございません。杏葉は大分市を拠点としているため、現時点では他県に支部を設けておりません。<br>
                 しかし、今後は他県のメンバーの数が一定数を超えるなどある程度条件を満たしたら福岡などでの支部も<br>
                 検討していく予定です。
             </dd>
-            <dt>他の県からも参加できますか？ <span class="under">▽</span></dt>
+            <dt>他の県からも参加できますか？ <span class="opened">▽</span></dt>
             <dd>既に他の県からのメンバーも数名いますので、参加可能です。</dd>
-            <dt>ど祭りに参加するのですか？ <span class="under">▽</span></dt>
+            <dt>ど祭りに参加するのですか？ <span class="opened">▽</span></dt>
             <dd>ど祭り参加は佐世保で大賞を取ってからとなります。</dd>
-            <dt>どの祭りに参加しますか？ <span class="under">▽</span></dt>
+            <dt>どの祭りに参加しますか？ <span class="opened">▽</span></dt>
             <dd>参加する祭りは、以下の通りです。<br>
                 ３月熊本：九州がっさい<br>
                 ７月熊本：さのよいファイヤーカーニバル<br>
