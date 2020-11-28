@@ -222,7 +222,41 @@
 .page a:hover {
     background: #9e9e9e;
 }
-
+/* お問い合わせ */
+.contact-title{
+    max-width: 1000px;
+    margin: 200px auto 0px;
+    font-size: 40px;
+    border-bottom: 1px solid #262626;
+    padding-bottom: 10px;
+}
+.contact {
+    margin: 50px auto 80px;
+}
+.contact p {
+    max-width: 1000px;
+    margin: 0px auto 15px;
+    font-size: 18px;
+}
+#post-98 {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #F3F3F2;
+    color: #262626;
+}
+.entry-content {
+    text-align: center;
+}
+.wpcf7-form init {
+    display: flex;
+}
+.entry-header {
+    display: none;
+}
+.entry-footer {
+    display: none;
+}
+/* フッター */
 footer {
     height: 50px;
     background-color: #262626;

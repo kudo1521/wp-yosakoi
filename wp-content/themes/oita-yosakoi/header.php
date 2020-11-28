@@ -37,6 +37,7 @@
                 <li><a href="/wp-yosakoi/about/">概要</a></li>
                 <li><a href="/wp-yosakoi/recruit/">メンバー募集</a></li>
                 <li><a href="/wp-yosakoi/dance/">演舞一覧</a></li>
+                <li><a href="/wp-yosakoi/contact/">お問い合わせ</a></li>
             </ul>
         </nav>
         <script>
@@ -54,6 +55,7 @@
                         <li><a href="/wp-yosakoi/about/">概要</a></li>
                         <li><a href="/wp-yosakoi/recruit/">メンバー募集</a></li>
                         <li><a href="/wp-yosakoi/dance/">演舞一覧</a></li>
+                        <li><a href="/wp-yosakoi/contact/">お問い合わせ</a></li>
                     </ul>
                 </nav>
             </div>
@@ -68,6 +70,6 @@
             ?>
     </div>
     <?php endif; ?>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="<?php echo get_template_directory_uri(); ?>/js/common.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
+    <!-- <script src="<?php echo get_template_directory_uri(); ?>/js/common.js"></script> -->
 </body>
