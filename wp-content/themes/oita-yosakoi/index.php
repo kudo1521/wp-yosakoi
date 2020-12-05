@@ -16,7 +16,7 @@ get_header();
 ?>
 <main class="main">
     <div class="top-wrapper">
-        <img src="<?php echo get_template_directory_uri(); ?>/img/main-image.jpeg">
+        <img src="<?php echo get_template_directory_uri(); ?>/img/main-image.png">
     </div>
     <section class="news-area">
         <h2>NEWS</h2>

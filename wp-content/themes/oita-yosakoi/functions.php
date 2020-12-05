@@ -177,28 +177,3 @@ require get_template_directory() . '/inc/customizer.php';
 if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
-
-/* ContactForm7 のカスタムバリデーション */
-add_filter('wpcf7_validate', 'wpcf7_validate_customize', 11, 2);
-
-function wpcf7_validate_customize($result,$tags){
-
-  foreach( $tags as $tag ){
-    $type = $tag['type'];
-    $name = $tag['name'];
-    $post = trim(strtr((string) $_POST[$name], "\n", ""));
-
-    switch($type){
-      case 'text':
-      case 'textarea*':
-        if(preg_match('/.*-kana$/', $name )){
-          if(preg_match("/^[ぁ-ん]+$/u",$_POST[$name]) == false){
-            $result->invalidate( $name,'全角ひらがなで入力してください。' );
-          }
-        }
-        break;
-    }
-
-  }
-  return $result;
-}

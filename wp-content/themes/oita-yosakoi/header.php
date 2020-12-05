@@ -30,7 +30,7 @@
 <body>
 
     <header class="header">
-        <h1><a href="/wp-yosakoi/"><img src="<?php echo get_template_directory_uri(); ?>/img/team-image.jpeg"></a></h1>
+        <h1><a href="/wp-yosakoi/"><img src="<?php echo get_template_directory_uri(); ?>/img/team-image.png"></a></h1>
         <nav class="pc-menu">
             <ul>
                 <li><a href="/wp-yosakoi/">ホーム</a></li>
