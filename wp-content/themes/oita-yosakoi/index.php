@@ -14,7 +14,7 @@
 
 get_header();
 ?>
-<main class="main">
+<main class="main-page">
     <div class="top-wrapper">
         <img src="<?php echo get_template_directory_uri(); ?>/img/main-image.png">
     </div>

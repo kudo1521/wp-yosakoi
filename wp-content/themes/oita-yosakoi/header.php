@@ -37,7 +37,7 @@
                 <li><a href="/wp-yosakoi/about/">概要</a></li>
                 <li><a href="/wp-yosakoi/recruit/">メンバー募集</a></li>
                 <li><a href="/wp-yosakoi/dance/">演舞一覧</a></li>
-                <li><a href="/wp-yosakoi/contact/">お問い合わせ</a></li>
+                <li class="header-contact"><a href="/wp-yosakoi/contact/">お問い合わせ</a></li>
             </ul>
         </nav>
         <script>

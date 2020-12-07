@@ -2,7 +2,7 @@
 p {
     line-height: 2;
 }
-main {
+.main-page {
     padding-top: 100px;
 }
 body {
@@ -39,7 +39,7 @@ body {
     color: #262626;
 }
 .pc-menu {
-    padding-top: 30px;
+    padding-top: 10px;
 }
 .pc-menu ul {
     margin-left: 50px;
@@ -49,11 +49,15 @@ body {
 }
 
 .pc-menu ul li {
-    margin-left: 50px;
+    margin-left: 40px; 
+    padding: 10px;
 }
 
 .pc-menu ul li:hover {
     opacity: 0.5;
+}
+.header-contact {
+    border: solid 1px #262626;
 }
 
 .header h1:hover {
@@ -61,8 +65,8 @@ body {
 }
 /* パンくずリスト */
 .breadcrumb-area {
-    font-size: 15px;
-    padding: 25px 90px;
+    font-size: 14px;
+    padding: 43px 90px;
     color: #262626;
 }
 
@@ -95,7 +99,7 @@ body {
 
 .news-area h2 {
     font-size: 35px;
-    margin: 0 50px;
+    margin:30px 50px;
 }
 
 .area-title {
@@ -108,7 +112,7 @@ body {
 
 .news-contents {
     font-size: 18px;
-    margin: 10px 15px 0;
+    margin:0px 15px;
 }
 
 .news-contents dl {
