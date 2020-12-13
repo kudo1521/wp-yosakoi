@@ -84,7 +84,6 @@ get_header();
                 　　長崎：YOSAKOI佐世保祭り<br>
                 その他、随時大分県内の地域イベント等
             </dd>
-
         </dl>
     </section>
     <!-- <h2 class="sns">SNS</h2> -->

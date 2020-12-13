@@ -38,6 +38,7 @@ body {
 .header a {
     color: #262626;
 }
+
 .pc-menu {
     padding-top: 10px;
 }
@@ -62,6 +63,19 @@ body {
 
 .header h1:hover {
     opacity: 0.5;
+}
+/* フローティングバナー */
+.banner {
+    width: 200px;
+    position: fixed;
+    right: 50px;
+    top: 950px;
+    z-index: 9999;
+    background-color: #262626;
+}
+.banner p {
+    color: #F3F3F2;
+    text-align: center;
 }
 /* パンくずリスト */
 .breadcrumb-area {
@@ -224,7 +238,6 @@ footer h1 {
     color: #F3F3F2;
     font-size: 20px;
 }
-
 @media (max-width: 834px) {
     body {
         padding-top: 0px;
