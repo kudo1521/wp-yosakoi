@@ -191,3 +191,14 @@ function remove_menus () {
 	remove_menu_page( 'tools.php' );// ツール
 }
 add_action('admin_menu', 'remove_menus');
+
+add_action( 'wp_footer', 'add_thanks_page' );
+function add_thanks_page() {
+echo <<< EOD
+<script>
+document.addEventListener( 'wpcf7mailsent', function( event ) {
+ location = 'http://localhost:8888/wp-yosakoi/thanks/';
+}, false );
+</script>
+EOD;
+}
