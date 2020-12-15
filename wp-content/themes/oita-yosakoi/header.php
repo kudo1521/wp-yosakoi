@@ -61,9 +61,6 @@
             </div>
         </div>
     </header>
-    <div class="banner">
-        <a href="/wp-yosakoi/contact/"><p>お問い合わせ</p></a>
-        </div>
     <?php if( !(is_home() || is_front_page() )): ?>
     <div class="breadcrumb-area">
         <?php

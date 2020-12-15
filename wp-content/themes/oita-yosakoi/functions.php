@@ -197,7 +197,7 @@ function add_thanks_page() {
 echo <<< EOD
 <script>
 document.addEventListener( 'wpcf7mailsent', function( event ) {
- location = 'http://localhost:8888/wp-yosakoi/thanks/';
+ location = '/wp-yosakoi/thanks/';
 }, false );
 </script>
 EOD;
