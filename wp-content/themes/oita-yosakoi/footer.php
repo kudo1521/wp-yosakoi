@@ -10,8 +10,8 @@
  */
 
 ?>
-<?php if(!is_page(‘dance’)): ?>
-    <a href=“/wp-yosakoi/contact/“><p>お問い合わせ</p></a>
+<?php if(!is_page('contact')): ?>
+    <a class="banner" href=“/wp-yosakoi/contact/“><p>お問い合わせ</p></a>
 <?php endif; ?>
 <footer>
     <h1>©️杏葉</h1>

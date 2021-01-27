@@ -345,4 +345,8 @@ footer h1 {
         font-size: 15px;
         margin: 50px 0;
     }
+    /* お問い合わせ */
+    .contact-title {
+        margin-top: 50px;
+    }
 }

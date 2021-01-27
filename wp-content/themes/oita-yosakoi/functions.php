@@ -183,10 +183,10 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 function remove_menus () {
 	global $menu;
 	remove_menu_page( 'index.php' );//ダッシュボード
-	remove_menu_page( 'edit.php' );//投稿
+	// remove_menu_page( 'edit.php' );//投稿
 	remove_menu_page( 'upload.php' );//メディア
 	remove_menu_page( 'edit-comments.php' );// コメント
-	remove_menu_page( 'themes.php' );// 外観
+	// remove_menu_page( 'themes.php' );// 外観
 	remove_menu_page( 'users.php' );// ユーザー
 	remove_menu_page( 'tools.php' );// ツール
 }
@@ -197,7 +197,7 @@ function add_thanks_page() {
 echo <<< EOD
 <script>
 document.addEventListener( 'wpcf7mailsent', function( event ) {
- location = '/wp-yosakoi/thanks/';
+	location = ‘/wp-yosakoi/thanks/’;
 }, false );
 </script>
 EOD;

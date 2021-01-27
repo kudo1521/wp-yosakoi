@@ -14,10 +14,7 @@
 
 get_header();
 ?>
-<div class="top-wrapper">
-        <img src="<?php echo get_template_directory_uri(); ?>/img/contact-image.png">
-    </div>
-
+<?php get_template_part('template-parts/content', 'page-header'); ?>
 	<main id="primary" class="site-main">
 	<h2 class="contact-title">お問い合わせ</h2>
 	<section class="contact">

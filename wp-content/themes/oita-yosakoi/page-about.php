@@ -14,9 +14,7 @@
 
 get_header();
 ?>
-<div class="top-wrapper">
-        <img src="<?php echo get_template_directory_uri(); ?>/img/aboutpage-image.jpeg">
-    </div>
+<?php get_template_part('template-parts/content', 'page-header'); ?>
 <main class="main">
         <h2 class="aboutarea-title">チーム発足にあたって</h2>
         <section class="about">

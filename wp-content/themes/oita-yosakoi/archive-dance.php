@@ -9,9 +9,7 @@
 
 get_header();
 ?>
-<div class="top-wrapper">
-  <img src="<?php echo get_template_directory_uri(); ?>/img/workspage-image.jpeg">
-</div>
+<?php get_template_part('template-parts/content', 'page-header'); ?>
 <main class="main">
   <h2 class="dance-title">演舞一覧</h2>
   <section class="dance-contents">
