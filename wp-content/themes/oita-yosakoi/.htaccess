@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Input your ID and Password."
+AuthUserFile "/home/greenfoal30/www/wp-yosakoi/wp-content/themes/oita-yosakoi/.htpasswd"
+require valid-user
